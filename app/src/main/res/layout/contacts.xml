@@ -8,19 +8,157 @@
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent">
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:layout_width="173dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/altai"
+            tools:srcCompat="@drawable/altai" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView4"
+            android:layout_width="238dp"
+            android:layout_height="105dp"
+            android:foregroundGravity="center"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Robert Roll"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="173dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/butterfly"
+            tools:srcCompat="@drawable/butterfly" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="238dp"
+            android:layout_height="105dp"
+            android:foregroundGravity="center"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Lizzy Shark"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="173dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/flowers"
+            tools:srcCompat="@drawable/flowers" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="238dp"
+            android:layout_height="105dp"
+            android:foregroundGravity="center"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Molly Drew"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="173dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_baseline_account_circle_24"
+            tools:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="238dp"
+            android:layout_height="105dp"
+            android:foregroundGravity="center"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Roza Veili"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="173dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_baseline_account_circle_24"
+            tools:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="238dp"
+            android:layout_height="105dp"
+            android:foregroundGravity="center"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Roza Veili"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="76dp"
+            android:layout_height="102dp"
+            app:srcCompat="@drawable/ic_baseline_account_circle_24"
+            tools:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="239dp"
+            android:layout_height="match_parent"
+            android:foregroundGravity="center"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Roza Veili"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="149dp"
+            android:layout_height="match_parent"
+            android:onClick="onClick"
+            android:text="Изменить" />
+
+        <Button
+            android:id="@+id/button8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
-
+            android:text="Пригласить" />
     </TableRow>
 </TableLayout>
